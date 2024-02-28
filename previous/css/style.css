@@ -1,0 +1,285 @@
+.bodyabout {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+  padding: 0;
+  margin: 0;
+  color: #696969;
+  font-family: "Barlow", sans-serif;
+  background-color: #DEB887;
+  /* footer */
+}
+.bodyabout .container {
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../pics/Header.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.bodyabout .bar {
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.bodyabout nav {
+  flex-basis: 100%;
+  text-align: right;
+}
+.bodyabout header nav ul {
+  display: flex;
+}
+.bodyabout nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.bodyabout nav ul li a {
+  text-decoration: none;
+  color: #FAF9F6;
+  font-size: 20px;
+}
+.bodyabout header nav ul li a:hover {
+  text-decoration: underline;
+}
+.bodyabout header h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  align-items: center;
+}
+.bodyabout h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.bodyabout h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.bodyabout .card-text {
+  width: 40%;
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(109, 109, 109);
+}
+.bodyabout #hero {
+  font-family: "Barlow", sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1cap;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.bodyabout article {
+  margin-top: 3rem;
+}
+.bodyabout #grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bodyabout #grid-container > * {
+  font-family: "Barlow", sans-serif;
+  background-color: #D2B48C;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 5px;
+}
+.bodyabout #grid-container img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-out;
+}
+.bodyabout .footer {
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 880px) {
+  .bodyabout .grid-container img {
+    width: 10%;
+    height: 10%;
+  }
+  .bodyabout article {
+    margin-top: 1rem;
+  }
+  .bodyabout .grid-container {
+    grid-template-columns: 1fr;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .bodyabout .left {
+    height: 200px;
+  }
+  .bodyabout nav ul li {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
+
+.homeb {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+  height: 100vh;
+  /*home page */
+  /*header home page */
+  /* content homepage */
+  /*body home */
+}
+.homeb * {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+}
+.homeb #containerhp {
+  width: 100%;
+  height: 120%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pics/Header.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.homeb .bar {
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.homeb nav {
+  flex-basis: 100%;
+  text-align: right;
+}
+.homeb nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.homeb nav ul li a {
+  text-decoration: none;
+  color: #FAF9F6;
+  font-size: 20px;
+}
+.homeb header nav ul li a:hover {
+  text-decoration: underline;
+}
+.homeb .card-text {
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(109, 109, 109);
+}
+.homeb .row {
+  display: flex;
+  height: 50%;
+  align-items: end;
+  margin-top: 1rem;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.homeb .col1 {
+  flex-basis: 50%;
+  max-height: 50vh;
+  align-self: start;
+}
+.homeb .col2 {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: end;
+  justify-items: end;
+}
+.homeb .col3 {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: end;
+  justify-items: end;
+}
+.homeb #h1hp {
+  color: #FAF9F6;
+  font-size: 100px;
+  margin-bottom: 1rem;
+}
+.homeb p {
+  color: #FAF9F6;
+  font-size: px;
+  line-height: 16px;
+  max-width: 80%;
+  margin-top: 1rem;
+}
+.homeb button {
+  width: 250px;
+  color: #000;
+  font-size: 23px;
+  background: #FAF9F6;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+.homeb .card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  display: grid;
+}
+.homeb .card1 {
+  background-image: url(./pics/folklore.jpg);
+}
+.homeb .card2 {
+  background-image: url(./pics/midnight.png);
+}
+.homeb .card3 {
+  background-image: url(./pics/1989.jpg);
+}
+.homeb .card4 {
+  background-image: url(../pics/speaknow.png);
+}
+.homeb .card:hover {
+  transform: translateY(-10px);
+}
+.homeb h5 {
+  color: floralwhite;
+  text-shadow: 0 0 5px #999;
+}
+.homeb .card p {
+  text-shadow: 0 0 5px #999;
+  font-size: 10px;
+}
+.homeb .footer {
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeb #footerhp {
+  color: #FAF9F6;
+}/*# sourceMappingURL=style.css.map */
